@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_slug}}.Api", "src\{{cookiecutter.project_slug}}.Api\{{cookiecutter.project_slug}}.Api.csproj", "{FCB4ED1D-7632-47F5-B35D-8BE987024762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_slug}}.Api.UnitTests", "test\{{cookiecutter.project_slug}}.Api.UnitTests\{{cookiecutter.project_slug}}.Api.UnitTests.csproj", "{887CFA78-41E4-47F1-B781-98EAC02EF505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_slug}}.Api.IntegrationTests", "test\{{cookiecutter.project_slug}}.Api.IntegrationTests\{{cookiecutter.project_slug}}.Api.IntegrationTests.csproj", "{6CF00B9F-16E0-4DDD-98D8-2DEDC9EEDA9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DDC5D552-CB2A-46D0-9214-14A563FE8C0F}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		make_dev_tls.sh = make_dev_tls.sh
+		README.md = README.md
+		rundev.sh = rundev.sh
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "{{cookiecutter.project_slug}}.Cli", "src\{{cookiecutter.project_slug}}.Cli\{{cookiecutter.project_slug}}.Cli.csproj", "{2D2D5A8C-3FFF-440F-86AF-42B493D333A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCB4ED1D-7632-47F5-B35D-8BE987024762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB4ED1D-7632-47F5-B35D-8BE987024762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB4ED1D-7632-47F5-B35D-8BE987024762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB4ED1D-7632-47F5-B35D-8BE987024762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887CFA78-41E4-47F1-B781-98EAC02EF505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887CFA78-41E4-47F1-B781-98EAC02EF505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887CFA78-41E4-47F1-B781-98EAC02EF505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887CFA78-41E4-47F1-B781-98EAC02EF505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF00B9F-16E0-4DDD-98D8-2DEDC9EEDA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF00B9F-16E0-4DDD-98D8-2DEDC9EEDA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF00B9F-16E0-4DDD-98D8-2DEDC9EEDA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF00B9F-16E0-4DDD-98D8-2DEDC9EEDA9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC1BDB69-81A6-4139-BA20-C89DF395C7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC1BDB69-81A6-4139-BA20-C89DF395C7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC1BDB69-81A6-4139-BA20-C89DF395C7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC1BDB69-81A6-4139-BA20-C89DF395C7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D2D5A8C-3FFF-440F-86AF-42B493D333A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2D5A8C-3FFF-440F-86AF-42B493D333A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2D5A8C-3FFF-440F-86AF-42B493D333A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2D5A8C-3FFF-440F-86AF-42B493D333A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

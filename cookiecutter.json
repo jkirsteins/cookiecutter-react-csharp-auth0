@@ -1,0 +1,18 @@
+{
+    "project_slug": "TestProject",
+    "api_version": "2019-11-15",
+    "company": "FooBar Inc.",
+    "env_var_prefix": "PROJECT",
+    "docker_user": "my_username",
+    "sentry_dsn": "https://...@sentry.io/1234567",
+    "auth0": {
+        "domain": "example.auth0.com",
+        "audience": "https://api.dev.example.com",
+        "client_secret": ""
+    },
+    "frontend": {
+        "url": "http://localhost:3000",
+        "cors_origins": "http://localhost:3000",
+        "cookie_domain": "localhost"
+    }
+}
